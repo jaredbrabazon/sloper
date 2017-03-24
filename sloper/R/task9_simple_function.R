@@ -1,4 +1,16 @@
+#' Find the slope of a line
+#' 
+#' @param x1 a number from a point (x1, y1)
+#' @param y1 a number from a point (x1,y1)
+#' @param x2 a number from a point (x2, y2)
+#' @param y2 a number from a point (x2, y2)
+#' @return The slope of a line between two given points (\code{x1}, \code{y1}) and (\code{x2}, \code{y2})
+#' @examples 
+#' slope(1,2,4,5)
+#' slope(63, 54, 34, 67)
+
 library(ggplot2)
+
 
 #write a simple function
 
