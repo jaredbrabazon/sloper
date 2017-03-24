@@ -13,7 +13,9 @@
 #write a simple function
 
 slope <- function(x1, y1, x2, y2){
+  
   library(ggplot2)
+  
   m <- ((y2-y1)/(x2-x1))
   
   x <- c(x1, x2)
