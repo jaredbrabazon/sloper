@@ -9,11 +9,11 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 ```{r}
-library(sloper)
+library(devtools)
 library(ggplot2)
+load_all("../../sloper")
 ```
 
-# sloper
 sloper is a simple package consisting of one function \slope. The main goal of sloper is to make computation of slope easier and more efficient. To do this, the function \slope was created. It is to be noted that the sloper package depends on the ggplot2 package to run properly.
 
 ### slope
