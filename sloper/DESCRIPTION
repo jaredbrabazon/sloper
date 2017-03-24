@@ -2,7 +2,7 @@ Package: sloper
 Title: Measures slope of a line given two points (one line, title case)
 Version: 0.0.0.9000
 Authors@R: person("Jared", "Brabazon", email = "first.last@example.com", role = c("aut", "cre"))
-Description: This package takes the slope of the line containing the two points (x1,y1) and (x2,y2). The slope is calculated by m = (y2-y1)/(x2-x1). The result is printed to the console.
+Description: This package takes the slope of the line containing the two points (x1,y1) and (x2,y2). The slope is calculated by m = (y2-y1)/(x2-x1). The result is printed to the console. A graph is plotted showing the two points and the line connecting those points. A title on the top of the plot shows the value for the slope.
 Depends: R (>= 3.3.0)
 License: What license is it under?
 Encoding: UTF-8
