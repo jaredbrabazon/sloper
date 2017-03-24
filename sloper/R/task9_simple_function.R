@@ -30,5 +30,5 @@ slope <- function(x1, y1, x2, y2){
   print(j)
 }
 
-#source('~/University/Classes/590_R/R/task9_simple_function.R')
+#source('~/University/Classes/590_R/sloper/R/task9_simple_function.R')
 
