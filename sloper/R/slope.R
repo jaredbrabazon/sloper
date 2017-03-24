@@ -9,12 +9,11 @@
 #' slope(1,2,4,5)
 #' slope(63, 54, 34, 67)
 
-library(ggplot2)
-
 
 #write a simple function
 
 slope <- function(x1, y1, x2, y2){
+  library(ggplot2)
   m <- ((y2-y1)/(x2-x1))
   
   x <- c(x1, x2)
@@ -30,5 +29,5 @@ slope <- function(x1, y1, x2, y2){
   print(j)
 }
 
-#source('~/University/Classes/590_R/sloper/R/task9_simple_function.R')
+#source('~/University/Classes/590_R/sloper/R/slope.R')
 
