@@ -14,17 +14,17 @@ library(ggplot2)
 load_all("../../sloper")
 ```
 
-sloper is a simple package consisting of one function \slope. The main goal of sloper is to make computation of slope easier and more efficient. To do this, the function \slope was created. It is to be noted that the sloper package depends on the ggplot2 package to run properly.
+sloper is a simple package consisting of one function 'slope'. The main goal of sloper is to make computation of slope easier and more efficient. To do this, the function 'slope' was created. It is to be noted that the sloper package depends on the ggplot2 package to run properly.
 
 ### slope
-\slope is a function that is based off of the formula: 
+slope is a function that is based off of the formula: 
 $$
 slope = m = \frac{y2-y1}{x2-x1}
 $$
 Given two points, the slope can be calculated. The output consists of the value of the slope being printed to the console, as well as a graph plotting the two points input.The graph includes a line connecting the two points and the slope being shown in text at the top of the graph. 
 
 ### Examples of slope
-To understand how the \slope function works, an example of the function is used below. 
+To understand how the 'slope' function works, an example of the function is used below. 
 
 Suppose that we needed to calculate the slope to understand the gradient of a road. From a datum such as sea level, the high point of the road was 70 m. 200m down the road is the low spot of the road at 45m. We could think of these locations as coordinates $(x1, y1)$ and $(x2, y2)$. x1 represents 0m while y2 represents 70m. At the low spot, x2 represents 200m while y2 represents 45m. Using the function, we can calculate the slope.
 
@@ -34,5 +34,7 @@ low location is represented as $(200, 45)$
 ```{r}
 slope(0, 70, 200, 45)
 ```
+
+
 The slope of the road is -0.125 or a gradient of 12.5%
 
