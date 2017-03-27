@@ -8,6 +8,7 @@
 #' @examples 
 #' slope(1,2,4,5)
 #' slope(63, 54, 34, 67)
+#' @export
 
 
 #write a simple function
